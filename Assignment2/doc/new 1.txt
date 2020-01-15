@@ -1,0 +1,57 @@
+sudo java -jar /home/ubuntu/tmp/Java/PM10DataCountToS3.jar
+
+
+				const responseA = await fetch(urlA1)
+			const dataA = await responseA.json()
+			for (var i = 1; i < dataA.results.length; i++) {
+
+              if (dataA.results[i].city == cityx) {
+			  day1=dataA.results[i].measurements[0].value;
+			  break;
+				}
+			}
+						const responseA = await fetch(urlA2)
+			const dataA = await responseA.json()
+			for (var i = 1; i < dataA.results.length; i++) {
+
+              if (dataA.results[i].city == cityx) {
+			  day2=dataA.results[i].measurements[0].value;
+			  break;
+				}
+			}
+						const responseA = await fetch(urlA3)
+			const dataA = await responseA.json()
+			for (var i = 1; i < dataA.results.length; i++) {
+
+              if (dataA.results[i].city == cityx) {
+  			  day3=dataA.results[i].measurements[0].value;
+			  break;
+				}
+			}
+						const responseA = await fetch(urlA4)
+			const dataA = await responseA.json()
+			for (var i = 1; i < dataA.results.length; i++) {
+
+              if (dataA.results[i].city == cityx) {
+			  day4=dataA.results[i].measurements[0].value;
+			  break;
+				}
+			}
+						const responseA = await fetch(urlA5)
+			const dataA = await responseA.json()
+			for (var i = 1; i < dataA.results.length; i++) {
+
+              if (dataA.results[i].city == cityx) {
+			  day5=dataA.results[i].measurements[0].value;
+			  break;
+				}
+			}
+						const responseA = await fetch(urlA6)
+			const dataA = await responseA.json()
+			for (var i = 1; i < dataA.results.length; i++) {
+
+              if (dataA.results[i].city == cityx) {
+			  day6=dataA.results[i].measurements[0].value;
+			  break;
+				}
+			}

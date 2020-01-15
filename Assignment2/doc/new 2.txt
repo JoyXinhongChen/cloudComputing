@@ -1,0 +1,34 @@
+cp COUNT_PM10_29012019.json s3://s3642928-rmit-storage/html
+
+
+
+https://s3.amazonaws.com/s3642928-rmit-storage/html/simple_example.html?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luEGcaDmFwLXNvdXRoZWFzdC0yIoACELDcLY3%2FXJ5AAJu9sv5EoTl5xV6VOnCmlNypNu38vYDxvmQ%2B5NXx2kSC3hHlHIzrExdjHj1zK9PCK6dQs5rQb%2FrZet%2BDyZHH5%2F6POK6NNVuwCbDBzMPFHeWqAvCicf9aUT8pDx1m%2BxVTF98Aco5hhTjFD%2FBlnG6yjZGpb5dwFAYdx9ACZ5L2lPue00OKG%2FFN3vYX91F635yip37FAKw95V6uFF1oMioimB7PbDs8bsuh4Ej%2Fcew6uuvYY1YbATV%2BbWP7UGaJvGxDI7b0OOWEuFc2lTQLysabCpfpswquUHsRshdyCF%2F5Idle%2BcJoA5G%2BlVqe83JN7W5ufBEK%2FCixXyqcBAhsEAAaDDMxNjQyNTQxNjU2NiIMTUy9V%2BmOSjGxInuuKvkD8KFaRHvyW1jMSEHKRfb5M0HN2WiLVt114CsV4A1leykLQR7JBZH%2FZ1qXkbVTLhN65fMIGp4jswguWIWdwMPQqRYseKbj9RiPC4lTulg3rjupwQMukTKIn3cvABz4BE6EtzXTelzbLbzmvQuo5FyTIk3RkR5xB7jMY34sFAgR6X2W354go8x4XbLSFXB6P8FjU5zI7EtVh2wJBaMRBLOJ4Zqdmhcf3wUPlAw1D4vWu9DnvHbKU9Ee12okvfbzhKldN4DAjbZgd%2F5OIFLrh16vVY%2Bl4FkR28AXCVXbmrl7h%2FtBnN8GEpIUSmgrnr5%2FUV83V77i0yVPvCj4HpyQyPh6AY%2BnYbGR4%2FPT0ekCM3u5j7KoFTcMKUAxHyrTUfJJquoT2IEJVQWaTuSvcXJ0CZCZ3SXRTD8mirDKqi1OuWWV6H0BQmGCfNu%2FIyNJ3%2BmAhLReqI2t8774A4tsVHu5Qk60rvXi8atUU5KWfV2RvSMccgsfqAV9aFYOEQsTbI1aoostESLTeJTvO0bIWKsW1whEKiwyJf2V5AwqCn%2BFWVGoazpIHS0J0ZPd2z%2BWu8ue%2BS97FUn9d9IghSVJ2%2BYGxQACyZm8SuWXTkOS0FB%2FQIn6FkdxhP1wD2JROpbIBjHgSlZ4Brh3gc4DTElt7wPCE5lwe%2Bn1oCq66YWqRjDvpcTiBQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190130T030131Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUTLDMV53GJ6YWP6N%2F20190130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=842440ae86a4a3a016fd3c0d54989a2e65c1b842559f2ee3db31ad4c4ef3ee8e
+
+
+
+
+
+
+<!--policy-->
+<CORSConfiguration>
+		<CORSRule>
+				<AllowedOrigin>*</AllowedOrigin>
+				<AllowedMethod>GET</AllowedMethod>
+				<MaxAgeSecond>3000</MaxAgeSecond>
+				<AllowedHeader>*</AllowedHeader>
+		</CORSRule>
+</CORSConfiguration>
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::s3642928-rmit-storage/html/charts_yiweng.html*"
+        }
+    ]
+}

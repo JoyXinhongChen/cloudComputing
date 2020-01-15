@@ -1,0 +1,9 @@
+
+30 00      * * *   sudo sh /home/ubuntu/tmp/script/CreateTablesDaily.bash
+30 01      * * *   sudo sh /home/ubuntu/tmp/script/PM25collectionScript.bash
+30 05      * * *   sudo sh /home/ubuntu/tmp/script/PM25collectionScript.bash
+30 09      * * *   sudo sh /home/ubuntu/tmp/script/PM25collectionScript.bash
+30 13      * * *   sudo sh /home/ubuntu/tmp/script/PM25collectionScript.bash
+30 17      * * *   sudo sh /home/ubuntu/tmp/script/PM25collectionScript.bash
+30 21      * * *   sudo sh /home/ubuntu/tmp/script/PM25collectionScript.bash
+30 23      * * *   sudo sh /home/ubuntu/tmp/script/CreateJsonS3Daily.bash
